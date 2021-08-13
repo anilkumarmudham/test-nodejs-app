@@ -1,5 +1,5 @@
-node('any') 
-   {
+pipeline {
+    agent any
         stage('continuous download') 
        {
         git 'https://github.com/sunildevops77/maven.git'
